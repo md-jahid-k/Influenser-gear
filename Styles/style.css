@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body */
+body{
+    background-color: #FFFFFF;
+    
+}
+.menu-bar{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin: 87px 120px 42px 120px;
+}
+.product-title{
+    color: #3A3A3A;
+    font-size: 18px;
+    font-weight: 900;
+}
+.menu{
+    display: flex;
+    gap: 27px;
+}
+.menu a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* banar start */
+.banar{
+    display: flex;
+    margin: 0px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banar-text{
+    margin: 0px;
+    width: 280px;
+    height: 270px;
+    align-content: center;
+}
+.banar-text h1{
+    font-size: 30px;
+}
+.banar-text p{
+    width: 305px;
+    font-size: 10px;
+    padding-top: 10px;
+}
+button{
+    display: flex;
+    color: #ffffff;
+    font-size: 10px;
+    background-color: #E02C6D;
+    padding: 10px 18px;
+    gap: 8px;
+    border-radius: 30px;
+    margin-top: 16px;
+    border: none;
+}
+.banar-photo{
+    margin: 0px;
+    width: 340px;
+    height: 340px;
+    background-image: url(/Images/Circle\ design.svg);
+    background-size: 340px;
+    
+}
+.banar-photo img{
+    width: 320px;
+    height: 304px;
+}
+/* market place */
