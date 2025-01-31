@@ -199,5 +199,42 @@ button{
     gap: 16px;
     padding-top: 10px;
 }
+@media screen and (max-width:576px) {
+    .menu-bar{
+        flex-direction: column;
+        margin: 50px 10px 40px 10px;
+        justify-items: center;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .banar{
+        flex-direction: column;
+    }
+    .brand-list{
+        margin: 50px 10px 40px 10px;
+        padding: 0px;
+    }
+    .logos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logos img{
+        padding-bottom: 15px;
+    }
+    .collections{
+        margin: 0px;
+    }
+    .gears{
+        grid-template-columns: 1fr;
+    }
+    .featured{
+        margin: 30px 10px 40px 10px;
+        grid-template-columns: 1fr;
+    }
+    .featured br{
+        display: none;
+    }
+}
 
 
